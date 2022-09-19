@@ -5,7 +5,7 @@ Composto pela junção de algumas aplicações, o green eyes busca proporcionar 
 
 ## Arquitetura
 
-![Alt text](Arquitetura.png raw=true "Arquitetura")
+![Alt text](Arquitetura.png?raw=true "Arquitetura")
 
 ### Postman
 
