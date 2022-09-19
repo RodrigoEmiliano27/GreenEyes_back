@@ -10,7 +10,7 @@
         public string id_foto_segmentada { get; set; }
         public string data { get; set; }
         public string classificacao_Azure { get; set; }
-        public float grau_certeza { get; set; }
+        public double grau_certeza { get; set; }
         public string classificacao_final { get; set; }
 
 
