@@ -6,7 +6,7 @@
         {
             this.GenerateID();
         }
-        public DateTime data { get; set; }
+        public string data { get; set; }
 
         public string id_usuario { get; set; }
 

@@ -15,7 +15,13 @@ namespace Green_eyes_server.Controllers
             return Ok("{\"id\":\"" + foto.id + "\"}");
         }
 
-       
+        [HttpPatch(Name = "PatchfotoSegmentada")]
+        public async Task<IActionResult> Segmentar([FromBody] FotoBasicaModel foto)
+        {
+            return Ok("foto segmentada em 20 fotos");
+        }
+
+
 
         [HttpGet(Name = "GetfotoSegmentada")]
         public async Task<IActionResult> Get(string? id_foto_original)
