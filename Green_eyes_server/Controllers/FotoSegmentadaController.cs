@@ -10,9 +10,9 @@ namespace Green_eyes_server.Controllers
     {
 
         [HttpPost(Name = "PostfotoSegmentada")]
-        public async Task<IActionResult> Create([FromBody] FotoBasicaModel foto)
+        public async Task<IActionResult> Create([FromBody] FotoSegmentadaModel foto)
         {
-            return Ok("{\"id\":\"" + foto.id + "\"}");
+            return Ok(JsonSerializer.Serialize(foto));
         }
 
         [HttpPatch(Name = "PatchfotoSegmentada")]
